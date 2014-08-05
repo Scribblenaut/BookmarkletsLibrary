@@ -1,0 +1,9 @@
+View page source:
+javascript:var source=document.documentElement.outerHTML;alert(source);
+
+View cookies
+javascript var cookies=document.cookie;alert(cookies);
+
+Change cookie/Delete cookie (Change the expiration date to something that has passed.)
+javascript:document.cookie="CookieName=CookieValue; expires="Wed, 9 Jun 2009 12:00:00 GMT; path=/";
+
